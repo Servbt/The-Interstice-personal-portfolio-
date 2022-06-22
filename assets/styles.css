@@ -94,31 +94,45 @@ section p {
     justify-content: space-evenly;
     align-items: flex-start;
     margin: 10px 0;
-    border: 1px dashed green;
+    border: 1px dashed rgb(26, 121, 155);
     height: 100px;
     line-height: 100px;
+    border-left: 5px solid rgb(26, 121, 155);
+    border-right: 5px solid rgb(26, 121, 155);
 }
 
 .steam-card {
+    background-image: url("../assets/Images/mountain.jpg");
     width:  95%;
     margin-left: 2.5%;
-    border-left: 5px solid rgb(0, 255, 98);
-    border-right: 5px solid rgb(0, 255, 98);
+
 }
 
 .horiseon-card {
+    background-image: url("../assets/Images/sky.jpg");
     width: 90%;
     margin-left: 5%;
-    border-left: 5px solid rgb(0, 255, 98);
-    border-right: 5px solid rgb(0, 255, 98);
+
 }
 
 .fanpage-card {
+    background-image: url("../assets/Images/skull.jpg");
     width: 85%;
     margin-left: 7.5%;
-    border-left: 5px solid rgb(0, 255, 98);
-    border-right: 5px solid rgb(0, 255, 98);
+
 }
+
+.steam-card:hover,
+ .fanpage-card:hover,  
+.horiseon-card:hover {
+
+border-radius: 6px;
+border: 3px solid green;
+background-image: url("../assets/Images/sovengarde.jpg");
+transition: .2s;
+
+
+} 
 
 
 
