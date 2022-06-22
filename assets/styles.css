@@ -1,15 +1,42 @@
 
-
 header {
-    background-color: black;
+    background: linear-gradient(black, blue);
     position: fixed;
+    color: #ffff;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    position: relative;
     color: #ffff;
     
 }
+
+.navbar h1 {
+    font-size: 40px;
+    margin-right: 10px;
+
+}
+
+.navbar nav{
+    margin-top: 20px;
+}
+
 .navbar ul li {
-    display:inline-block;
+    display:inline;
+    position: relative;
+
+    
+
 }
 
 main {
-    padding-top: 60px;
+    padding-top: 960px;
+
 }
