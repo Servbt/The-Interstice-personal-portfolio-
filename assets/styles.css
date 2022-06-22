@@ -47,7 +47,6 @@ header {
 main {
     padding: 120px 360px 0px;
     color: #ffff;
-    position: absolute;
 
 }
 
@@ -68,11 +67,14 @@ main {
     border: 3px solid rgb(48, 73, 123);
 }
 
-details p {
+section p {
     text-indent: 30px;
 }
 
-@media screen and (max-width: 768px) {
+/* Media Queries */
+
+
+@media screen and (max-width: 1000px) {
     main {
       padding: 120px 0px;
     }
