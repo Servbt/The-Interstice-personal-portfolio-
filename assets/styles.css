@@ -134,6 +134,18 @@ transition: .2s;
 
 } 
 
+/* Contact Info styles */
+.third ul {
+    display: flex;
+    justify-content: center;
+}
+
+.third ul li {
+    display: inline;
+    margin-left: 15px;
+
+}
+
 
 
 
