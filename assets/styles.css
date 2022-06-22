@@ -1,6 +1,6 @@
 
 header {
-    background: linear-gradient(black, blue);
+    background: linear-gradient(black, rgb(64, 64, 241));
     position: fixed;
     color: #ffff;
     justify-content: center;
@@ -36,7 +36,22 @@ header {
 
 }
 
-main {
-    padding-top: 960px;
+body {
+    background-repeat: no-repeat;
+    background-image: url("../assets/Images/kino.jpg");
+    position:static;
+    
+}
 
+main {
+    padding: 120px 360px 0px;
+    color: #ffff;
+    position: absolute;
+
+}
+
+.first-card {
+    padding: 20px;
+    background-color: grey;
+    border-radius: 10px;
 }
