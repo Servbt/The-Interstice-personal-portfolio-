@@ -15,7 +15,6 @@ header {
     justify-content: center;
     width:100%;
     display: flex;
-    justify-content: center;
     padding: 20px;
 }
 
@@ -60,6 +59,8 @@ main {
 }
 
 .first  , .second , .third{
+    display:flex;
+    flex-direction: column;
     padding: 20px;
     margin-bottom: 30px;
     background-color:rgb(13, 13, 128);
@@ -70,3 +71,9 @@ main {
 details p {
     text-indent: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+      padding: 120px 0px;
+    }
+  }
