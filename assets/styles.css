@@ -49,6 +49,12 @@ header {
 /* header attributes END */
 
 /* Main atrributes START */
+main a {
+    text-decoration: none;
+    color: #ffff;
+    
+}
+
 main {
     padding: 120px 360px 0px;
     color: #ffff;
@@ -91,6 +97,27 @@ section p {
     border: 1px dashed green;
     height: 100px;
     line-height: 100px;
+}
+
+.steam-card {
+    width:  95%;
+    margin-left: 2.5%;
+    border-left: 5px solid rgb(0, 255, 98);
+    border-right: 5px solid rgb(0, 255, 98);
+}
+
+.horiseon-card {
+    width: 90%;
+    margin-left: 5%;
+    border-left: 5px solid rgb(0, 255, 98);
+    border-right: 5px solid rgb(0, 255, 98);
+}
+
+.fanpage-card {
+    width: 85%;
+    margin-left: 7.5%;
+    border-left: 5px solid rgb(0, 255, 98);
+    border-right: 5px solid rgb(0, 255, 98);
 }
 
 
