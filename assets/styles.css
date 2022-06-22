@@ -1,4 +1,13 @@
+/* Background Image */
 
+body {
+    background-repeat: no-repeat;
+    background-image: url("../assets/Images/kino.jpg");
+    position:static;
+    
+}
+
+/* header attributes START */
 header {
     background: linear-gradient(black, rgb(64, 64, 241));
     position: fixed;
@@ -32,17 +41,10 @@ header {
     display:inline;
     position: relative;
 
-    
-
 }
+/* header attributes END */
 
-body {
-    background-repeat: no-repeat;
-    background-image: url("../assets/Images/kino.jpg");
-    position:static;
-    
-}
-
+/* Main atrributes START */
 main {
     padding: 120px 360px 0px;
     color: #ffff;
@@ -50,8 +52,21 @@ main {
 
 }
 
-.first-card {
+#bio , #work , #contact {
+    text-align: center;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border-bottom: 1px solid #ffff;
+}
+
+.first  , .second , .third{
     padding: 20px;
-    background-color: grey;
+    margin-bottom: 30px;
+    background-color:rgb(13, 13, 128);
     border-radius: 10px;
+    border: 3px solid rgb(48, 73, 123);
+}
+
+details p {
+    text-indent: 30px;
 }
